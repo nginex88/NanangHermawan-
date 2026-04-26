@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warung Nikmat — Aplikasi Pemesanan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Warung Nikmat</h1>
+        <p class="subtitle">Aplikasi pemesanan sederhana siap deploy gratis</p>
+      </div>
+      <button id="themeToggle" aria-label="Ganti tema">🌙</button>
+    </header>
+
+    <main class="layout">
+      <section>
+        <h2>Menu Makanan</h2>
+        <div id="menuList" class="grid"></div>
+      </section>
+
+      <aside class="cart">
+        <h2>Keranjang</h2>
+        <ul id="cartList"></ul>
+        <p>Total: <strong id="cartTotal">Rp0</strong></p>
+        <button id="checkoutBtn">Checkout WhatsApp</button>
+      </aside>
+    </main>
+
+    <footer>
+      <small>© 2026 Warung Nikmat</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
